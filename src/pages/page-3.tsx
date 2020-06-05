@@ -8,9 +8,9 @@ import SEO from "../components/seo"
 const ThirdPage = (props: PageProps) => (
   <Layout>
     <SEO title="Page three" />
-    <h1>Hi from the third page</h1><span>   </span>
+    <h1>Hi from the third page</h1>
     <p>Welcome to page 3 </p>
-    <Link to="/">Homepage </Link>
+    <Link to="/">Homepage </Link><span>       </span>
     <Link to="/page-2/">Page 2</Link>
   </Layout>
 )
