@@ -8,8 +8,8 @@ import SEO from "../components/seo"
 const ThirdPage = (props: PageProps) => (
   <Layout>
     <SEO title="Page three" />
-    <h1>Hi from the third page</h1>
-    <p>Welcome to page 3 ({props.path})</p>
+    <h1>Hi from the third page</h1><span>   </span>
+    <p>Welcome to page 3 </p>
     <Link to="/">Homepage </Link>
     <Link to="/page-2/">Page 2</Link>
   </Layout>
