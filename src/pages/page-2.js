@@ -10,8 +10,8 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2 </p>
-    <Link to="/">Homepage  </Link><span style={{ Width: `100px` }}> </span>
-    <Link to="/page-3/">Page 3</Link>
+    <p><Link to="/">Homepage  </Link>   <Link to="/page-3/">Page 3</Link></p>
+    
   </Layout>
 )
 
